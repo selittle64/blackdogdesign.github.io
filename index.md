@@ -4,27 +4,27 @@
 <head>
     <meta charset="utf-8">
     <title>BLACK DOG DESIGNS</title>
-    <link rel="stylesheet" href="/home/scott/assets/stylesheets/main.css">
-    <link rel="stylesheet" href="/home/scott/assets/stylesheets/bodyStyle.css">
-
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="assets/stylesheets/bodyStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body class="bodyColor">
     <main>
-        <div style="background-color:dimgray">
-            <img class="imagecenter blackBorder" src="/assets/Images/newbdd.png">
+      <div class="infoDots2">
+        <a href="/home/scott/Documents/My Website/blackdogdesign.github.io/projects.html"><p>Projects</p>
+      </div>
+      <div class="infoDots3">
+        <a href="/home/scott/Documents/My Website/blackdogdesign.github.io/pricing.html"><p>Costs</p>
+      </div>
+      <div class="infoDots">
+        <a href="/home/scott/Documents/My Website/blackdogdesign.github.io/about.html"><p>About</p>
+      </div>
+        <div>
+            <img class="image" src="/home/scott/Documents/My Website/blackdogdesign.github.io/assets/Images/newbdd.png">
         </div>
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">The Black Dog</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="/projects.html">Projects</a>
-                <a href="/pricing.html">Pricing</a>
-                <a href="/about.html">About</a>
-                <a href="/blackDog.html">The Black Dog</a>
-            </div>
-        </div>
-        <script type="text/javascript" src="/assets/scripts/pages.js"></script>
-        <h4 style="font-size: 10px; text-align: center;">copyright 2020</h4>
+
     </main>
 </body>
 
