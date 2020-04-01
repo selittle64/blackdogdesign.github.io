@@ -4,26 +4,26 @@
 <head>
     <meta charset="utf-8">
     <title>BLACK DOG DESIGNS</title>
-    <link rel="stylesheet" href="assets/stylesheets/main.css">
-    <link rel="stylesheet" href="assets/stylesheets/bodyStyle.css">
+    <link rel="stylesheet" href="/home/scott/assets/stylesheets/main.css">
+    <link rel="stylesheet" href="/home/scott/assets/stylesheets/bodyStyle.css">
 
 </head>
 
 <body class="bodyColor">
     <main>
         <div style="background-color:dimgray">
-            <img src="assets/Images/newbdd.png" class="imagecenter">
+            <img class="imagecenter blackBorder" src="/assets/Images/newbdd.png">
         </div>
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">The Black Dog</button>
             <div id="myDropdown" class="dropdown-content">
-                <a href="projects.html">Projects</a>
-                <a href="pricing.html">Pricing</a>
-                <a href="about.html">About</a>
-                <a href="blackDog.html">The Black Dog</a>
+                <a href="/projects.html">Projects</a>
+                <a href="/pricing.html">Pricing</a>
+                <a href="/about.html">About</a>
+                <a href="/blackDog.html">The Black Dog</a>
             </div>
         </div>
-        <script type="text/javascript" src="assets/scripts/pages.js"></script>
+        <script type="text/javascript" src="/assets/scripts/pages.js"></script>
         <h4 style="font-size: 10px; text-align: center;">copyright 2020</h4>
     </main>
 </body>

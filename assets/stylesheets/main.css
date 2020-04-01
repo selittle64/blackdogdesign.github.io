@@ -1,0 +1,103 @@
+.infoDots {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 0;
+    right: -10%;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(243, 4, 4);
+    border: rgb(3, 3, 12);
+    border-width: 10px;
+    border-radius: 25%;
+    padding: 10px;
+}
+
+.infoDots2 {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: -30%;
+    right: 5%;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 50px;
+    background-color: rgb(247, 204, 12);
+    border: rgb(3, 3, 12);
+    border-width: 10px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.infoDots3 {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: -40%;
+    right: -10%;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(6, 236, 18);
+    border: rgb(3, 3, 12);
+    border-width: 10px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.infoDots {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 0;
+    right: -10%;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(136, 48, 48);
+    border: rgb(3, 3, 12);
+    border-width: 10px;
+    border-radius: 25%;
+    padding: 10px;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    font-family: amatic sc, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: transparent;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 50px;
+    width: 500px;
+    position: relative;
+    animation-name: imageSlide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+
+@keyframes imageSlide {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 500px;
+        transform: translateX(25%) rotate(120deg);
+    }
+}

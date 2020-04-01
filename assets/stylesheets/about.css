@@ -1,0 +1,38 @@
+body {
+    background-color: darkblue;
+}
+
+.about {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgb(235, 217, 217);
+    border: rgb(3, 3, 12);
+    border-width: 10px;
+    border-radius: 10%;
+    padding: 40px;
+    font-size: 24px;
+    font-family: 'Baloo Da 2';
+}
+
+.circleHome {
+    position: relative;
+    display: flex;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: -200px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(247, 12, 12);
+    border: rgb(3, 3, 12);
+    border-width: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 16px;
+}
